@@ -2,7 +2,7 @@ import React from 'react'
 import '../components/Css.css'
 import iwl1 from '../assets/wl1.jpeg'
 
-// backgroundImage: `url("https://cdn.pixabay.com/photo/2021/08/31/11/58/woman-6588614__340.jpg")`
+
 const Poster = () => {
   return (
     <div className='flex h-full w-full mb-8 bg-transparent'>
