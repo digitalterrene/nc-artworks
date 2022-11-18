@@ -31,16 +31,25 @@ const About = () => {
                             <h1 className='text-center py-16 text-3xl font-bold'>Our 5 'W's</h1>
                         </div>
                         <p className='px-20 py-4 mt-8 text-2xl text-center mx-20'>
-                            <p className='text-center'><a className="underline decoration-sky-500 bg-sky-500 px-2 rounded-xl mx-2">Who</a>
-                                I’m <a className="underline decoration-pink-500">Nigel Chris</a>..., an artist based in
-                                <a className="underline decoration-sky-500 bg-sky-500 px-2 rounded-xl mx-2">Where</a>
-                                <a className="underline decoration-pink-500"> Harare.</a>
-                                <a className="underline decoration-sky-500 bg-sky-500 px-2 rounded-xl mx-2">Why</a>I passionately specialize
-                                <a className="underline decoration-sky-500 bg-sky-500 px-2 rounded-xl mx-2">What</a> in Pencil Artistry at
-                                <a className="underline decoration-pink-500"> NC Artworks</a>.
-                                <a className="underline decoration-sky-500 bg-sky-500 px-2 rounded-xl mx-2">When</a> If you like <a className="underline decoration-pink-500">paintings</a>,
+                            <p className='text-center'>
+                                <p className="underline decoration-sky-500 bg-sky-500 px-2 rounded-xl mx-2">Who</p>
+                                I’m <p className="underline decoration-pink-500">Nigel Chris</p>..., an artist based in
+                                <p className="underline decoration-sky-500 bg-sky-500 px-2 rounded-xl mx-2">Where</p>
+                                <p className="underline decoration-pink-500"> Harare.</p>
+                                <p className="underline decoration-sky-500 bg-sky-500 px-2 rounded-xl mx-2">Why</p>I passionately specialize
+                                <p className="underline decoration-sky-500 bg-sky-500 px-2 rounded-xl mx-2">What</p> in Pencil Artistry at
+                                <p className="underline decoration-pink-500"> NC Artworks</p>.
+                                <p className="underline decoration-sky-500 bg-sky-500 px-2 rounded-xl mx-2">When</p> If you like 
+                                <p className="underline decoration-pink-500">paintings</p>,
                                 get in tough and i guarantee
-                                    it will knock your socks offf....Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget condimentum leo. Praesent sem nisi, fringilla sit amet eros placerat, pellentesque consequat libero. Sed pretium et sapien et volutpat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi nulla urna, placerat id posuere non, posuere sed tellus. Nunc laoreet ultrices dolor, in laoreet tortor accumsan a. Etiam sed erat blandit, tristique felis non, volutpat mauris. Morbi vitae leo nec leo molestie cursus eu nec sem. Mauris nec aliquet elit. Mauris eget neque a metus egestas mollis.
+                                    it will knock your socks offf....Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                     Aenean eget condimentum leo. Praesent sem nisi, fringilla sit amet eros placerat, 
+                                     pellentesque consequat libero. Sed pretium et sapien et volutpat. Vestibulum ante 
+                                     ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi nulla urna, 
+                                     placerat id posuere non, posuere sed tellus. Nunc laoreet ultrices dolor, in laoreet 
+                                     tortor accumsan a. Etiam sed erat blandit, tristique felis non, volutpat mauris. 
+                                     Morbi vitae leo nec leo molestie cursus eu nec sem. Mauris nec aliquet elit. 
+                                     Mauris eget neque a metus egestas mollis.
                             </p>
                         </p>
                     </div>
