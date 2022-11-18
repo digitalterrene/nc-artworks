@@ -47,7 +47,7 @@ function App() {
       ('resize', handleResize)
 
   }, [deviceWidth,toggleSidebar,
-    toggleNavbar])
+    toggleNavbar,setToggleNavbar, setToggleSidebar])
 
 
   return (
