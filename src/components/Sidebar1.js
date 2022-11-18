@@ -8,14 +8,6 @@ import { MdOutlineCancel } from 'react-icons/md';
 import { useStateContext } from '../contexts/ContextProvider';
 
 
-const pages = [
-    'home',
-    'about',
-    'services',
-    'contacts',
-    'custom'
-]
-
 const routes = [
     'home',
     'about',
