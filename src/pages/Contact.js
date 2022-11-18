@@ -1,17 +1,10 @@
 import React from 'react'
 import '../components/Css.css'
 import logo from '../assets/nc.png'
-import i2 from '../assets/2.jpeg'
-import i3 from '../assets/3.jpeg'
-import i4 from '../assets/4.jpeg'
-import iwl1 from '../assets/wl1.jpeg'
-import iwl2 from '../assets/wl2.jpeg'
-import iwl from '../assets/wl.jpeg'
 import nigel from '../assets/n2.jpeg'
 import nigel1 from '../assets/n3.jpeg'
 import { HiOutlineMail } from 'react-icons/hi'
-import { FaPhoneSquareAlt } from 'react-icons/fa'
-import { AiFillPhone, AiOutlinePhone } from 'react-icons/ai'
+import { AiOutlinePhone } from 'react-icons/ai'
 
 // backgroundImage: `url("https://cdn.pixabay.com/photo/2021/08/31/11/58/woman-6588614__340.jpg")`
 const Poster = () => {
@@ -57,8 +50,7 @@ const OurTeam = () => {
 }
 
 const Contact = () => {
-    const bg = 'https://cdn.pixabay.com/photo/2016/11/23/00/37/art-1851483__340.jpg'
-    return (
+     return (
         <div style={{height:'100%'}}>
             <div>
                 <Poster />

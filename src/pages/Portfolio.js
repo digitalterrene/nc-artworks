@@ -15,15 +15,15 @@ import iwl from '../assets/wl.jpeg'
 
 
 
-const tabs = [
-    'Wildlife',
-    'Pets',
-    'Potraits',
-    'Still Life ',
-    'Landscape',
-    'Genre'
+// const tabs = [
+//     'Wildlife',
+//     'Pets',
+//     'Potraits',
+//     'Still Life ',
+//     'Landscape',
+//     'Genre'
 
-]
+// ]
 
 const Gallery = () => {
     return (
@@ -49,17 +49,17 @@ const Gallery = () => {
 }
 
 const Portfolio = () => {
-    const [tabFS, setTabFS] = useState('')
+    //const [tabFS, setTabFS] = useState('')
     const [activeTab, setActiveTab] = useState()
-    const [loading, setLoading] = useState(false)
-    const [searchedSites, setSearchedSites] = useState([])
+    // const [loading, setLoading] = useState(false)
+    // const [searchedSites, setSearchedSites] = useState([])
 
     const changeTab = (newTab) => {
-        console.log(newTab)
+        //console.log(newTab)
         setActiveTab(newTab)
         if (activeTab) {
-            console.log(activeTab.text)
-            setTabFS(activeTab.text)
+           // console.log(activeTab.text)
+            //setTabFS(activeTab.text)
         }
     }
 

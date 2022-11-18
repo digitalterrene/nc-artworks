@@ -1,7 +1,5 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import '../components/Css.css'
-import n from '../assets/n1.jpeg'
-import n1 from '../assets/n2.jpeg'
 import n2 from '../assets/n3.jpeg'
 const Poster = () => {
   return (
@@ -34,7 +32,6 @@ const Landing = () => {
   // },[ims, chosen])
 
 
-  const bg = 'https://cdn.pixabay.com/photo/2016/11/23/00/37/art-1851483__340.jpg'
   return (
     <div style={{ }}>
       <div>
