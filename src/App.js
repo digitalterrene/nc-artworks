@@ -1,11 +1,8 @@
 
-import { useEffect, useState } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Footer from './components/Footer';
-import Navbar from './components/Navbar';
 import Navbar1 from './components/Navbar1';
-import Sidebar from './components/Sidebar';
 import Sidebar1 from './components/Sidebar1';
 import { useStateContext } from './contexts/ContextProvider';
 import About from './pages/About';
@@ -17,27 +14,9 @@ import Portfolio from './pages/Portfolio';
 
 
 function App() {
-  const { activeMenu, currentMode, authUserData, setAuthUserData, siteAccessKey, setAccessKey, setThemeSettings, siteName, setSiteName, currentColor, themeSettings } = useStateContext();
-  const [deviceWidth, setDeviceWidth] = useState(1200)
-
-  // const ToggleSidebarAndNavbar = ()=>{
-  //   if(window.innerWidth >= 730){
-  //     setToggleNavbar(!toggleNavbar)
-  //     setToggleSidebar(!toggleSidebar)
-  //   }
-  // }
-
-  // // useEffect(()=>{
-  // //   ToggleSidebarAndNavbar()
-  // // },[ toggleNavbar, toggleSidebar])
+  const { activeMenu } = useStateContext();
 
 
-  // useEffect(()=>{
-  //   if (toggleNavbar && toggleSidebar){
-  //     setToggleNavbar(!toggleNavbar)
-  //   }
-  //   else if(toggleNavbar)
-  // })
 
 
   return (
