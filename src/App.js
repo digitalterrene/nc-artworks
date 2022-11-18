@@ -46,7 +46,8 @@ function App() {
     return () => window.removeEventListener
       ('resize', handleResize)
 
-  }, [deviceWidth])
+  }, [deviceWidth,toggleSidebar,
+    toggleNavbar])
 
 
   return (

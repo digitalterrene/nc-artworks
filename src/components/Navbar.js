@@ -44,6 +44,3 @@ const Navbar = () => {
 }
 
 export default Navbar
-{/* <NavLink>
-{r}
-    </NavLink> */}
