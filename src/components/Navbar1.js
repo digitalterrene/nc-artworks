@@ -22,7 +22,7 @@ const NavButton = ({ title, customFunc, icon, color, dotColor }) => (
         type='button'
         onClick={customFunc}
         style={{ color }}
-        className='relative text-xl rounded-full p-3 hover:bg-light-gray'
+        className='relative text-xl rounded-full p-3 hover:bg-slate-900'
     >
         <span style={{ background: dotColor }}
             className='absolute inline-flex rounded-full h-2 w-2 right-2 top-2' />
@@ -90,7 +90,7 @@ const Navbar1 = () => {
             <div className="flex-none -mb-4 ">
                 <NavButton title='Menu' customFunc={() =>
                     setActiveMenu((prevActionMenu) =>
-                        !prevActionMenu)} color={currentColor} icon={<AiOutlineMenu />} />
+                        !prevActionMenu)} color={'white'} icon={<AiOutlineMenu />} />
             </div>
             {activeNavbar && !activeMenu &&
                 <div className='flex w-full text-white h-auto items-center text-xl font-bold justify-between' >

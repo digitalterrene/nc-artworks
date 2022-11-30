@@ -23,6 +23,20 @@ const Poster = () => {
         </div>
     )
 }
+const Poster1 = () => {
+    return (
+      <div className='flex h-full w-full -mt-24 mb-8 bg-transparent'>
+        <div className='w-full h-36 lg:h-72 shadow-2xl  bg-gradient-to-l from-zinc-900 to-transparent'>
+        </div>
+          <img src={nigel1} alt='foto' className='h-40  lg:h-96 w-2/3 lg:w-1/2 items-center rounded-b-3xl' style={{
+            backgroundRepeat: 'no-repeat'
+  
+          }} />
+        <div className='shadow-2xl  bg-gradient-to-r from-zinc-900 to-transparent w-full  h-36 lg:h-72'>
+        </div>
+      </div>
+    )
+  }
 
 const OurTeam = () => {
     return (
@@ -53,7 +67,7 @@ const Contact = () => {
      return (
         <div style={{height:'100%'}}>
             <div>
-                <Poster />
+                <Poster1 />
                 <div style={{ paddingTop: 'auto' }} className='mt-auto'>
                     <div className=''>
                         <section className="py-6 dark:bg-gray-800 dark:text-gray-100">

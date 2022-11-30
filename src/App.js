@@ -22,7 +22,7 @@ function App() {
   return (
     <div className='h-full'>
       <BrowserRouter>
-        <div className=' w-full bg-cover h-72 '
+        <div className=' w-full bg-cover h-48 lg:h-72 '
           style={{
             backgroundRepeat: 'no-repeat',
             backgroundImage: `url("https://cdn.pixabay.com/photo/2018/02/04/09/09/brushes-3129361__340.jpg")`

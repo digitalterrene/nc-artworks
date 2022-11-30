@@ -29,7 +29,9 @@ export default function Tabs({changeTab, activeTab}) {
                     <button key={i}
                     className={ activeTab === t ? 'active' :''}
                     onClick={() => handleClick(t)}>
+                        <p className='text-sm lg:text-2xl'>
                         {t}
+                        </p>
                     </button>
                 ))
             }
