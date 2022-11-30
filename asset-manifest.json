@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/nc-artworks/static/css/main.7bbeeba3.css",
-    "main.js": "/nc-artworks/static/js/main.7a61cc72.js",
+    "main.css": "/nc-artworks/static/css/main.1c8b4609.css",
+    "main.js": "/nc-artworks/static/js/main.d2958749.js",
     "static/media/wl2.jpeg": "/nc-artworks/static/media/wl2.88e5deee56fef7c7100f.jpeg",
     "static/media/1.jpeg": "/nc-artworks/static/media/1.cad5541d0cf2605af24a.jpeg",
     "static/media/wl.jpeg": "/nc-artworks/static/media/wl.a055e9695ea87bb85234.jpeg",
@@ -15,11 +15,11 @@
     "static/media/logow.png": "/nc-artworks/static/media/logow.c421b0aabd6ff41b5672.png",
     "static/media/nc1.png": "/nc-artworks/static/media/nc1.fb7909df3eafcb90bd1f.png",
     "index.html": "/nc-artworks/index.html",
-    "main.7bbeeba3.css.map": "/nc-artworks/static/css/main.7bbeeba3.css.map",
-    "main.7a61cc72.js.map": "/nc-artworks/static/js/main.7a61cc72.js.map"
+    "main.1c8b4609.css.map": "/nc-artworks/static/css/main.1c8b4609.css.map",
+    "main.d2958749.js.map": "/nc-artworks/static/js/main.d2958749.js.map"
   },
   "entrypoints": [
-    "static/css/main.7bbeeba3.css",
-    "static/js/main.7a61cc72.js"
+    "static/css/main.1c8b4609.css",
+    "static/js/main.d2958749.js"
   ]
 }
